@@ -1,0 +1,31 @@
+body{
+    height:100vh;
+    width:100vw;
+    background-color: yellow;
+    display:flex;
+    justify-content:center ;
+    align-items:center;
+}
+button
+{
+    width:150px;
+    height:150px;
+    border:2px solid black;
+    outline:none;
+}
+button.hover{
+    cursor: pointer;
+    opacity:.8;
+}
+#btn_red{
+    background-color: red;
+}
+#btn_blue{
+    background-color:blue;
+}
+#btn_orange{
+    background-color:orange;
+}
+#btn_yellow{
+    background-color:yellow;
+}
